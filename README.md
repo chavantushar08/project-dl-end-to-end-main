@@ -61,9 +61,9 @@
 
     
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 422349589342.dkr.ecr.ap-south-1.amazonaws.com/kidneyrepo 
 
-    
+     
 ## 4. Create EC2 machine (Ubuntu) 
 
 ## 5. Open EC2 and Install docker in EC2 Machine:

@@ -154,3 +154,334 @@ x==========x]
 [2025-05-08 11:00:33,695: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-05-08 11:13:32,970: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 11:13:32,986: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:13:32,986: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:13:32,986: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:13:32,994: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-05-08 11:13:33,091: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 11:15:06,022: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 11:15:07,718: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-08 11:15:07,718: INFO: main: *******************]
+[2025-05-08 11:15:07,718: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-08 11:15:07,718: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:15:07,730: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:15:07,731: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:15:07,731: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-05-08 11:15:08,637: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 11:15:09,094: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 11:15:09,842: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-08 11:15:09,842: INFO: main: *******************]
+[2025-05-08 11:15:09,842: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-08 11:15:09,851: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:15:09,857: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:15:09,857: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:15:09,860: INFO: comman: created directory at: artifacts\training]
+[2025-05-08 11:15:10,273: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 11:16:15,602: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 11:16:16,128: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-08 11:16:16,129: INFO: main: *******************]
+[2025-05-08 11:16:16,129: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-05-08 11:16:16,136: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:16:16,140: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:16:16,146: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:16:16,646: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 11:16:37,364: INFO: comman: json file saved at: scores.json]
+[2025-05-08 11:16:37,364: INFO: comman: json file saved at: scores.json]
+[2025-05-08 11:18:37,837: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-08 11:22:08,401: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 11:22:08,404: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:22:08,440: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:22:08,444: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:22:08,451: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-05-08 11:22:08,455: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 11:24:14,996: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 11:24:16,686: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-08 11:24:16,686: INFO: main: *******************]
+[2025-05-08 11:24:16,686: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-08 11:24:16,692: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:24:16,695: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:24:16,695: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:24:16,695: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-05-08 11:24:17,407: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 11:24:17,841: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 11:24:18,033: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-08 11:24:18,033: INFO: main: *******************]
+[2025-05-08 11:24:18,033: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-08 11:24:18,043: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:24:18,045: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:24:18,048: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:24:18,049: INFO: comman: created directory at: artifacts\training]
+[2025-05-08 11:24:18,408: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 11:25:35,813: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 11:25:36,289: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-08 11:25:36,289: INFO: main: *******************]
+[2025-05-08 11:25:36,289: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-05-08 11:25:36,303: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 11:25:36,307: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 11:25:36,309: INFO: comman: created directory at: artifacts]
+[2025-05-08 11:25:36,674: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 11:25:58,241: INFO: comman: json file saved at: scores.json]
+[2025-05-08 11:25:58,241: INFO: comman: json file saved at: scores.json]
+[2025-05-08 11:28:10,196: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2427)')': /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras]
+[2025-05-08 11:28:14,382: WARNING: connectionpool: Retrying (Retry(total=3, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E92EA6F2C0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras]
+[2025-05-08 11:28:22,425: WARNING: connectionpool: Retrying (Retry(total=2, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E92EA997F0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras]
+[2025-05-08 12:00:23,460: WARNING: connectionpool: Retrying (Retry(total=1, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E92EA999D0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras]
+[2025-05-08 12:00:55,781: WARNING: connectionpool: Retrying (Retry(total=0, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E92EA99BB0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras]
+[2025-05-08 12:02:33,032: ERROR: main: API request to https://dagshub.com/chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras (Caused by ResponseError('too many 502 error responses'))]
+urllib3.exceptions.ResponseError: too many 502 error responses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\urllib3\connectionpool.py", line 932, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras (Caused by ResponseError('too many 502 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\utils\rest_utils.py", line 108, in http_request
+    return _get_http_response_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\utils\request_utils.py", line 212, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\requests\adapters.py", line 691, in send
+    raise RetryError(e, request=request)
+requests.exceptions.RetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras (Caused by ResponseError('too many 502 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\MLops Project\project-dl-end-to-end-main\main.py", line 61, in <module>
+    model_evalution.main()
+  File "d:\MLops Project\project-dl-end-to-end-main\src\cnnClassifier\pipeline\stage_04_model_eval.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "d:\MLops Project\project-dl-end-to-end-main\src\cnnClassifier\components\model_eval.py", line 74, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\keras\save.py", line 336, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\models\model.py", line 617, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path, run_id)
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\tracking\fluent.py", line 1095, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\tracking\client.py", line 1237, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 570, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\store\artifact\http_artifact_repo.py", line 80, in log_artifacts
+    self.log_artifact(os.path.join(root, f), artifact_dir)
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\store\artifact\http_artifact_repo.py", line 63, in log_artifact
+    resp = http_request(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Tushar\anaconda3\envs\kidney\Lib\site-packages\mlflow\utils\rest_utils.py", line 130, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to https://dagshub.com/chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /chavantushar08/project-dl-end-to-end-main.mlflow/api/2.0/mlflow-artifacts/artifacts/b65fd06e6061478cbd4819fcf4f35c14/27c4ee8a21cb476286d8930247ce6f77/artifacts/model/data/model.keras (Caused by ResponseError('too many 502 error responses'))
+[2025-05-08 12:04:28,170: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 12:04:28,170: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 12:04:28,189: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 12:04:28,195: INFO: comman: created directory at: artifacts]
+[2025-05-08 12:04:28,195: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-05-08 12:04:28,202: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 12:06:25,536: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 12:06:28,084: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-08 12:06:28,084: INFO: main: *******************]
+[2025-05-08 12:06:28,084: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-08 12:06:28,090: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 12:06:28,096: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 12:06:28,096: INFO: comman: created directory at: artifacts]
+[2025-05-08 12:06:28,100: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-05-08 12:06:28,942: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 12:06:29,392: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 12:06:29,943: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-08 12:06:29,943: INFO: main: *******************]
+[2025-05-08 12:06:29,943: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-05-08 12:06:29,943: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 12:06:29,954: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 12:06:29,954: INFO: comman: created directory at: artifacts]
+[2025-05-08 12:06:29,954: INFO: comman: created directory at: artifacts\training]
+[2025-05-08 12:06:30,400: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 12:07:46,842: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 12:07:47,458: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-08 12:07:47,460: INFO: main: *******************]
+[2025-05-08 12:07:47,460: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-05-08 12:07:47,465: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 12:07:47,470: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 12:07:47,471: INFO: comman: created directory at: artifacts]
+[2025-05-08 12:07:47,822: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 12:08:07,839: INFO: comman: json file saved at: scores.json]
+[2025-05-08 12:08:07,839: INFO: comman: json file saved at: scores.json]
+[2025-05-08 12:10:09,081: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-08 12:45:01,138: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 12:45:01,138: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 12:45:01,138: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 12:45:01,154: INFO: comman: created directory at: artifacts]
+[2025-05-08 12:45:01,156: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-05-08 12:45:01,159: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 12:46:33,151: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 12:46:34,734: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-08 12:50:13,634: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 12:50:13,634: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 12:50:13,650: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 12:50:13,651: INFO: comman: created directory at: artifacts]
+[2025-05-08 12:50:13,653: INFO: comman: created directory at: artifacts/data_ingestion]
+[2025-05-08 12:50:13,654: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 12:51:36,616: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-05-08 12:51:38,220: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-08 12:52:07,278: INFO: stage_02_prepare_base_model: *******************]
+[2025-05-08 12:52:07,283: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-08 12:52:07,288: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 12:52:07,294: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 12:52:07,296: INFO: comman: created directory at: artifacts]
+[2025-05-08 12:52:07,296: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-05-08 12:52:08,131: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 12:52:08,467: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 12:52:08,724: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-08 13:13:47,067: INFO: stage_02_prepare_base_model: *******************]
+[2025-05-08 13:13:47,067: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-08 13:13:47,074: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 13:13:47,083: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 13:13:47,087: INFO: comman: created directory at: artifacts]
+[2025-05-08 13:13:47,091: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2025-05-08 13:13:47,933: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 13:13:48,245: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 13:13:48,451: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-08 13:14:09,234: INFO: stage_03_model_training: *******************]
+[2025-05-08 13:14:09,234: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2025-05-08 13:14:09,234: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 13:14:09,248: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 13:14:09,255: INFO: comman: created directory at: artifacts]
+[2025-05-08 13:14:09,255: INFO: comman: created directory at: artifacts\training]
+[2025-05-08 13:14:09,783: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 13:15:24,140: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 13:15:24,362: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-08 13:16:32,746: INFO: stage_03_model_training: *******************]
+[2025-05-08 13:16:32,746: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2025-05-08 13:16:32,746: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 13:16:32,763: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 13:16:32,763: INFO: comman: created directory at: artifacts]
+[2025-05-08 13:16:32,763: INFO: comman: created directory at: artifacts\training]
+[2025-05-08 13:16:33,306: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 13:17:47,193: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 13:17:47,727: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-08 13:45:27,059: INFO: stage_04_model_eval: *******************]
+[2025-05-08 13:45:27,059: INFO: stage_04_model_eval: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-05-08 13:45:27,071: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 13:45:27,075: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 13:45:27,077: INFO: comman: created directory at: artifacts]
+[2025-05-08 13:45:27,618: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 13:45:47,774: INFO: comman: json file saved at: scores.json]
+[2025-05-08 13:45:47,778: INFO: comman: json file saved at: scores.json]
+[2025-05-08 13:46:20,599: INFO: stage_04_model_eval: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-08 13:53:58,006: INFO: stage_03_model_training: *******************]
+[2025-05-08 13:53:58,012: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2025-05-08 13:53:58,012: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 13:53:58,022: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 13:53:58,025: INFO: comman: created directory at: artifacts]
+[2025-05-08 13:53:58,027: INFO: comman: created directory at: artifacts\training]
+[2025-05-08 13:53:59,327: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 13:55:02,442: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-08 13:55:02,695: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-05-08 13:55:26,533: INFO: stage_04_model_eval: *******************]
+[2025-05-08 13:55:26,533: INFO: stage_04_model_eval: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-05-08 13:55:26,533: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 13:55:26,543: INFO: comman: yaml file: params.yaml loaded successfully]
+[2025-05-08 13:55:26,545: INFO: comman: created directory at: artifacts]
+[2025-05-08 13:55:27,056: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 13:55:47,291: INFO: comman: json file saved at: scores.json]
+[2025-05-08 13:55:47,303: INFO: comman: json file saved at: scores.json]
+[2025-05-08 13:56:19,570: INFO: stage_04_model_eval: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-05-08 14:23:40,025: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2025-05-08 14:23:40,044: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-08 14:23:40,046: INFO: _internal:  * Restarting with stat]
+[2025-05-08 14:23:57,104: WARNING: _internal:  * Debugger is active!]
+[2025-05-08 14:23:57,171: INFO: _internal:  * Debugger PIN: 139-069-449]
+[2025-05-08 14:25:07,960: INFO: _internal: 127.0.0.1 - - [08/May/2025 14:25:07] "GET / HTTP/1.1" 200 -]
+[2025-05-08 14:26:52,864: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 14:26:54,349: INFO: _internal: 127.0.0.1 - - [08/May/2025 14:26:54] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 14:27:10,638: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 14:27:11,588: INFO: _internal: 127.0.0.1 - - [08/May/2025 14:27:11] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 14:27:26,843: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 14:27:27,980: INFO: _internal: 127.0.0.1 - - [08/May/2025 14:27:27] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 14:28:14,550: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 14:28:15,590: INFO: _internal: 127.0.0.1 - - [08/May/2025 14:28:15] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 14:28:34,135: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 14:28:35,072: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025CD9E03600> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-08 14:28:35,120: INFO: _internal: 127.0.0.1 - - [08/May/2025 14:28:35] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 14:28:55,750: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 14:28:56,664: WARNING: polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025CD9D46660> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-08 14:28:56,716: INFO: _internal: 127.0.0.1 - - [08/May/2025 14:28:56] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 14:35:31,772: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2025-05-08 14:35:31,774: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-08 14:35:31,774: INFO: _internal:  * Restarting with stat]
+[2025-05-08 14:35:48,490: WARNING: _internal:  * Debugger is active!]
+[2025-05-08 14:35:48,515: INFO: _internal:  * Debugger PIN: 139-069-449]
+[2025-05-08 14:37:30,055: WARNING: _internal:  * Debugger is active!]
+[2025-05-08 14:37:30,058: INFO: _internal:  * Debugger PIN: 139-069-449]

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLops%20Project/project-dl-end-to-end-main/mlruns/0/222350f6ba54406cadc92a723344879e/artifacts
+end_time: 1746692180595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 222350f6ba54406cadc92a723344879e
+run_name: legendary-grub-207
+run_uuid: 222350f6ba54406cadc92a723344879e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746692148536
+status: 3
+tags: []
+user_id: Tushar

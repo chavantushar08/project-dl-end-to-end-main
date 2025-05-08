@@ -1,3 +1,8 @@
+import sys 
+import os 
+sys.path.append(os.getcwd()) 
+
+
 from src.cnnClassifier.entity.config import DataIngestionConfig 
 from src.cnnClassifier import logger 
 from src.cnnClassifier.config.configuration import ConfigurationManager 

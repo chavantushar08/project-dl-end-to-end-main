@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLops%20Project/project-dl-end-to-end-main/mlruns/0/a27bb891a35649cbb9d2a2cebc05d266/artifacts
+end_time: 1746692779563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a27bb891a35649cbb9d2a2cebc05d266
+run_name: useful-jay-320
+run_uuid: a27bb891a35649cbb9d2a2cebc05d266
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746692748161
+status: 3
+tags: []
+user_id: Tushar

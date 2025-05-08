@@ -24,13 +24,13 @@ class EvaluationPipeline:
         evaluation.evaluation()
         evaluation.save_score()
         evaluation.log_into_mlflow()
-        os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/chavantushar08/project-dl-end-to-end-main.mlflow"
-        os.environ["MLFLOW_TRACKING_USERNAME"]="chavantushar08"
-        os.environ["MLFLOW_TRACKING_PASSWORD"]="1e9dc24a1031ae97b82b275e4a7b06a6fc4af344"
+        #os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/chavantushar08/project-dl-end-to-end-main.mlflow"
+        #os.environ["MLFLOW_TRACKING_USERNAME"]="chavantushar08"
+        #os.environ["MLFLOW_TRACKING_PASSWORD"]="1e9dc24a1031ae97b82b275e4a7b06a6fc4af344"
 
         #set mlflow tracking url 
-        mlflow.set_tracking_uri("https://dagshub.com/chavantushar08/project-dl-end-to-end-main.mlflow") 
-
+        #mlflow.set_tracking_uri("https://dagshub.com/chavantushar08/project-dl-end-to-end-main.mlflow") 
+        #evaluation.log_into_mlflow()
 
 
 

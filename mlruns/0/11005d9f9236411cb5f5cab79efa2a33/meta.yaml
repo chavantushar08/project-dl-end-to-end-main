@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLops%20Project/project-dl-end-to-end-main/mlruns/0/11005d9f9236411cb5f5cab79efa2a33/artifacts
+end_time: 1746682233695
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11005d9f9236411cb5f5cab79efa2a33
+run_name: shivering-slug-700
+run_uuid: 11005d9f9236411cb5f5cab79efa2a33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746682219028
+status: 3
+tags: []
+user_id: Tushar
